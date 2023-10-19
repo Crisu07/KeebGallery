@@ -19,6 +19,22 @@ const ReactImageGallery = () => {
     // console.log(image, i);
     setData({img, i})
   }
+  const imgClick = (action) =>{
+    let i = data.i;
+    // move on to next image in gallery/masonry
+    if (action === 'next-img'){
+      setData({img: images[i+1], i: i+1});
+    }
+    // move to previous image in gallery
+    // when hitting prev on first image, it will just exit out the view
+    if (action === 'prev-img'){
+      setData({img: images[i-1], i: i-1});
+    }
+    // Exiting the close up on images
+    if (!action){
+      setData({img: '', i: 0});
+    }
+  }
 
   return (
     <>
@@ -32,10 +48,10 @@ const ReactImageGallery = () => {
           alignItems: 'center',
           overflow: 'hidden',
         }}>
-          <button style={{position: 'absolute', top: '10px', right: '10px'}}>X</button>
-          <button>Previous</button>
+          <button onClick={() => imgClick()} style={{position: 'absolute', top: '10px', right: '10px'}}>X</button>
+          <button onClick={() => imgClick('prev-img')}>Previous</button>
           <img src={data.img} style={{width: 'auto', maxWidth: '90%', maxHeight: '90%'}} />
-          <button>Next</button>
+          <button onClick={() => imgClick('next-img')}>Next</button>
         </div>
       }
       <div style={{padding: '10px'}}>
