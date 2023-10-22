@@ -1,14 +1,24 @@
 import React, {useState} from 'react'
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import './ReactImageGallery.css'
+
+import yeti1 from './keebs/yeti1.jpg'
+import yeti2 from './keebs/yeti2.jpg'
+import yeti3 from './keebs/yeti3.jpg'
+
+import eighty1 from './keebs/eighty1.jpg'
+import eighty2 from './keebs/eighty2.jpg'
+import eighty3 from './keebs/eighty3.jpg'
+
+import abasic1 from './keebs/abasic1.jpg'
+import abasic2 from './keebs/abasic2.jpg'
+import abasic3 from './keebs/abasic3.jpg'
 
 // test images
 const images = [
-    "https://picsum.photos/2000/3000",
-    "https://picsum.photos/3000/2000",
-    "https://picsum.photos/4000/3000",
-    "https://picsum.photos/3000/1500",
-    "https://picsum.photos/1000/2500",
-    "https://picsum.photos/1500/2000",
+    yeti2, yeti1, yeti3,
+    eighty1, eighty2, eighty3,
+    abasic3, abasic1, abasic2,
   ]
 
 const ReactImageGallery = () => {
@@ -42,16 +52,16 @@ const ReactImageGallery = () => {
         <div style={{
           width: '100%',
           height: '100vh',
-          background: 'black',
+          background: 'var(--color-bg-variant)',
           position: 'fixed',
           justifyContent: 'center',
           alignItems: 'center',
           overflow: 'hidden',
         }}>
-          <button onClick={() => imgClick()} style={{position: 'absolute', top: '10px', right: '10px'}}>X</button>
-          <button onClick={() => imgClick('prev-img')}>Previous</button>
+          <button className='btn btn-primary btn-close' onClick={() => imgClick()} >X</button>
+          <button className='btn btn-primary' onClick={() => imgClick('prev-img')}>Previous</button>
           <img src={data.img} style={{width: 'auto', maxWidth: '90%', maxHeight: '90%'}} />
-          <button onClick={() => imgClick('next-img')}>Next</button>
+          <button className='btn btn-primary' onClick={() => imgClick('next-img')}>Next</button>
         </div>
       }
       <div style={{padding: '10px'}}>
