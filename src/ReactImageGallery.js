@@ -3,19 +3,7 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import './ReactImageGallery.css'
 
 // importing the images in separate file for cleanliness
-import images from './keebsImages'
-
-const title = [
-  'Persona 5 Theme', 
-  'Mai Sakurajima Theme',
-  'Bocchi the Rock Kikuri Theme',
-]
-
-const board = [
-  'Yeti Polycarbonate Clear by Axol Studios\nDurock T1 Tactile Switches Lubed with 205g0\nGMK Metaverse R2 Keycap Set\nS-Craft Studio Psyduck Artisan Keycap\nDykeycap Mew Artisan Keycap\nShiba Artian Keycap',
-  'Mode Eighty by Mode Designs\nEMT Emilia v2 Switches Lubed with 205g0\nKenoKeys Bunny Girl Keycap Set\nS-Craft Studio Chikorita Artisan\nBalloondog Keycaps Ditto Gengar and Annihilape Artisan\nokeydokey Studio Taro Bat Artisan',
-  'AVA Alice Polycarb by Sneakbox, Betty switches lubed with 205g0'
-]
+import images, {title, board} from './keebsImages'
 
 const ReactImageGallery = () => {
   const [data, setData] = useState({img: '', i:0})
