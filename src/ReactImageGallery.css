@@ -33,11 +33,14 @@ pre {
 }
 
 .detailImg {
-    position: absolute;
-    left: 43%;
+    text-align: center;
     background: var(--color-primary);
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Button class */
@@ -74,10 +77,50 @@ pre {
     position: absolute;
     left: 10px;
     top: 60vh;
+    font-size: 20px;
   }
 
   .btn-right {
     position: absolute;
     right: 10px;
     top: 60vh;
+    font-size: 20px;
   }
+
+
+/* ------------MEDIA QUERIES (MEDIUM DEVICES - aka tablets)------------ */
+@media screen and (max-width: 1024px) {
+}
+
+/* When tablet is horizontal, hide details */
+@media screen and (max-width: 1180px) and (orientation: landscape) {
+  .detailImg {
+    display: none;
+  }
+}
+
+/* ------------MEDIA QUERIES (SMALL DEVICES -aka mobile phones)------------  */
+@media screen and (max-width: 600px) {
+  pre{
+    font-size: 14px;
+  }
+  .detailImg {
+    display: block;
+  }
+  .dataImg {
+    margin-top: 15%;
+  }
+  .btn-left {
+    margin-top: 70%;
+  }
+  .btn-right{
+    margin-top: 70%;
+  }
+}
+
+/* when phone is horizontal, hide details */
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  .detailImg {
+    display: none; /* Hide the .detailImg element */
+  }
+}

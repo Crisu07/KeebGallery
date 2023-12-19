@@ -24,6 +24,54 @@ const ReactImageGallery = () => {
       setimageText(title[2])
       setimageBody(board[2])
     }
+    if (i === 9 || i === 10 || i === 11){
+      setimageText(title[3])
+      setimageBody(board[3])
+    }
+    if (i === 12 || i === 13 || i === 14){
+      setimageText(title[4])
+      setimageBody(board[4])
+    }
+    if (i === 15 || i === 16 || i === 17){
+      setimageText(title[5])
+      setimageBody(board[5])
+    }
+    if (i === 18 || i === 19 || i === 20){
+      setimageText(title[6])
+      setimageBody(board[6])
+    }
+    if (i === 21 || i === 22 || i === 23){
+      setimageText(title[7])
+      setimageBody(board[7])
+    }
+    if (i === 24 || i === 25 || i === 26){
+      setimageText(title[8])
+      setimageBody(board[8])
+    }
+    if (i === 27 || i === 28 || i === 29){
+      setimageText(title[9])
+      setimageBody(board[9])
+    }
+    if (i === 30 || i === 31 || i === 32){
+      setimageText(title[10])
+      setimageBody(board[10])
+    }
+    if (i === 33 || i === 34 || i === 35){
+      setimageText(title[11])
+      setimageBody(board[11])
+    }
+    if (i === 36 || i === 37){
+      setimageText(title[12])
+      setimageBody(board[12])
+    }
+    if (i === 38) {
+      setimageText(title[13])
+      setimageBody(board[13])
+    }
+    if (i === 39 || i === 40){
+      setimageText(title[14])
+      setimageBody(board[14])
+    }
   }
   
   // upon clicking on an image
@@ -62,13 +110,13 @@ const ReactImageGallery = () => {
       {data.img &&
         <div className='viewImg'>
           <button className='btn btn-primary btn-close' onClick={() => imgClick()} >X</button>
-          <button className='btn btn-primary btn-left' onClick={() => imgClick('prev-img')}>Previous</button>
+          <button className='btn btn-primary btn-left' onClick={() => imgClick('prev-img')}>{'<'}</button>
           <img src={data.img} className='dataImg'/>
           <div className='detailImg'>
             <h3>{imageText}</h3>
             <pre>{imageBody}</pre>
           </div>
-          <button className='btn btn-primary btn-right' onClick={() => imgClick('next-img')}>Next</button>
+          <button className='btn btn-primary btn-right' onClick={() => imgClick('next-img')}>{'>'}</button>
         </div>
       }
       <div style={{padding: '10px'}}>

@@ -4,9 +4,10 @@ Portfolio that displays all keyboards that I have built that were for personal u
 Work in Progress
 
 # To Do
-- [] Convert styles to a css file to make things cleaner (tutorial did styles in line)
+- [x] Convert styles to a css file to make things cleaner
 - [x] Upload all keyboard photos
-- [] Add descriptions for each photo
+- [x] Add descriptions for each photo
 - [x] Implement buttons to navigate through page
 - [] Add a review option? Where commissioners can provide feedback for my work
-- [] Link this page to personal site page
+- [] Update titles of boards that were commissions
+- [] Nav bar to switch between portfolio, personal site, and commission forms (Learn React Routing)
