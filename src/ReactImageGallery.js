@@ -68,9 +68,13 @@ const ReactImageGallery = () => {
       setimageText(title[13])
       setimageBody(board[13])
     }
-    if (i === 39 || i === 40){
+    if (i === 39 || i === 40 || i === 41){
       setimageText(title[14])
       setimageBody(board[14])
+    }
+    if (i === 42 || i === 43 || i === 44){
+      setimageText(title[15])
+      setimageBody(board[15])
     }
   }
   

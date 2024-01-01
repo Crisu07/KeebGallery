@@ -45,6 +45,7 @@ import scarlet1 from './keebs/scarlet1.jpg'
 
 import nk1 from './keebs/nk1.jpg'
 import nk2 from './keebs/nk2.jpg'
+import nk3 from './keebs/nk3.jpg'
 
 import tiger4 from './keebs/tiger4.jpg'
 import tiger5 from './keebs/tiger5.jpg'
@@ -53,6 +54,12 @@ import tiger6 from './keebs/tiger6.jpg'
 import atlas1 from './keebs/atlas1.jpg'
 import atlas2 from './keebs/atlas2.jpg'
 import atlas3 from './keebs/atlas3.jpg'
+
+import placeholder1 from './keebs/placeholder1.jpg'
+
+import akko1 from './keebs/akko1.jpg'
+import akko2 from './keebs/akko2.jpg'
+import akko3 from './keebs/akko3.jpg'
 
 const images = [
     yeti5, yeti4, yeti6,
@@ -69,25 +76,27 @@ const images = [
     jjk1, jjk2, jjk3,
     bake1, bake2,
     scarlet1,
-    nk1, nk2,
+    nk3, nk1, nk2,
+    akko1, akko3, akko2,
   ];
 
   const title = [
-    'Persona 5 Theme', 
-    'Mai Sakurajima Theme',
-    'Bocchi the Rock Kikuri Theme', // MusicallyPrime Commission
-    'Cubone Theme', // MusicallyPrime Commission
-    'Hololive Houshou Marine Theme', // MusicallyPrime Commission
-    'Bocchi the Rock Theme', // Mare Commission
+    'Persona 5', 
+    'Mai Sakurajima',
+    'Bocchi the Rock Kikuri', // MusicallyPrime Commission
+    'Cubone', // MusicallyPrime Commission
+    'Hololive Houshou Marine', // MusicallyPrime Commission
+    'Bocchi the Rock', // Mare Commission
     'Yueisad Commission', // Yueisad Commission
-    'Rayquaza Theme', // YoungGaryOak Commission
-    'Pikachu Theme', // Mare Commission
-    'Totodile Theme', // Katsu Commission
-    'Mimikyu Theme', // Mare Commission
-    'Jujutsu Kaisen Theme',
-    'Rowlet Theme', // Friend Commission
-    'Polar Theme', // Fukada Commission
-    'Aesthetic Blue Theme', // Derpvid Commission
+    'Rayquaza', // YoungGaryOak Commission
+    'Pikachu', // Mare Commission
+    'Totodile', // Katsu Commission
+    'Mimikyu', // Mare Commission
+    'Jujutsu Kaisen',
+    'Rowlet', // Friend Commission
+    'Polar', // Fukada Commission
+    'Just Blue', // Derpvid Commission
+    'Gengar', // Magtan1 Commission
   ];
   
   // board, switches, keycaps, artisans
@@ -122,7 +131,9 @@ const images = [
 
     'Scarlet TKL White \nTheKeyCo Banana Split Switches stock \nGMK Iceberg Keycap Clone \nJellyfish Artisan',
 
-    'Novelkeys NK87 Comet Blue Aluminum Edition \nSP Star Magic Girls switches lubed \nCannonCaps Winter Tundra',
+    'Novelkeys NK87 Comet Blue Aluminum Edition \nSP Star Magic Girls switches lubed \nCannonCaps Winter Tundra \nCustom Cleffairy, Togepi, and Goomy Artisans',
+
+    'Akko SPR67 Lavender \nAkko Crystal Blue Switches Lubed with 205g0 \nGradient Purple Keycaps \nGengar Artisan \nGengar Decal'
   ];
 
 export default images;
