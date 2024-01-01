@@ -10,4 +10,7 @@ Work in Progress
 - [x] Implement buttons to navigate through page
 - [] Add a review option? Where commissioners can provide feedback for my work
 - [] Update titles of boards that were commissions
-- [] Nav bar to switch between portfolio, personal site, and commission forms (Learn React Routing)
+- [x] Nav bar to switch between different pages for commissions (Learn React Routing)
+- [] About Page for commission rates and my history with keyboards
+- [] Commission form page that would email me for commission requests and contact
+- [] Connect keeb portfolio to personal site and vice versa
