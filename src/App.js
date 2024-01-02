@@ -3,18 +3,21 @@ import React from "react";
 
 // React Routings Imports
 import { Navbar } from './components/Navbar'
-import { Route, Routes } from 'react-router-dom'
-import { Home, About, Commission } from "./components/pages";
+import { Route, Routes, Navigate } from 'react-router-dom'
+import { About, Commission, Contact } from "./components/pages";
 
 function App() {
   return (
     <div>
         <Navbar/>
         <Routes>
-        <Route path="/" element={<Home />}/>
+        {/* Redirects the default route to portfolio page */}
+        <Route path="/" element={<Navigate replace to='/portfolio' />}/>
+          {/* Main Pages for Keyboard Portfolio */}
           <Route path="/portfolio" element={<ReactImageGallery />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/commission" element={<Commission />}/>
+          <Route path="/contact" element={<Contact />}/>
         </Routes>
       </div>
   );
