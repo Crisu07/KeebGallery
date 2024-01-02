@@ -1,3 +1,4 @@
+// Imports for all Keeb Pics
 import yeti5 from './keebs/yeti5.jpg'
 import yeti6 from './keebs/yeti6.jpg'
 import yeti4 from './keebs/yeti4.jpg'
@@ -55,11 +56,13 @@ import atlas1 from './keebs/atlas1.jpg'
 import atlas2 from './keebs/atlas2.jpg'
 import atlas3 from './keebs/atlas3.jpg'
 
-import placeholder1 from './keebs/placeholder1.jpg'
-
 import akko1 from './keebs/akko1.jpg'
 import akko2 from './keebs/akko2.jpg'
 import akko3 from './keebs/akko3.jpg'
+
+import coarse1 from './keebs/coarse1.jpg'
+import coarse2 from './keebs/coarse2.jpg'
+import coarse3 from './keebs/coarse3.jpg'
 
 const images = [
     yeti5, yeti4, yeti6,
@@ -78,11 +81,13 @@ const images = [
     scarlet1,
     nk3, nk1, nk2,
     akko1, akko3, akko2,
+    coarse1, coarse2, coarse3,
   ];
 
+  // Reference screen names for commissions to keep things a bit anounymous ATM
   const title = [
-    'Persona 5', 
-    'Mai Sakurajima',
+    'Persona 5', // Personal
+    'Mai Sakurajima', // Personal
     'Bocchi the Rock Kikuri', // MusicallyPrime Commission
     'Cubone', // MusicallyPrime Commission
     'Hololive Houshou Marine', // MusicallyPrime Commission
@@ -92,11 +97,12 @@ const images = [
     'Pikachu', // Mare Commission
     'Totodile', // Katsu Commission
     'Mimikyu', // Mare Commission
-    'Jujutsu Kaisen',
-    'Rowlet', // Friend Commission
-    'Polar', // Fukada Commission
+    'Jujutsu Kaisen', // Personal
+    'Rowlet', // Raddcatt Commission
+    'Polar', // Mikurino Commission
     'Just Blue', // Derpvid Commission
     'Gengar', // Magtan1 Commission
+    'ZeroTwo', // Rayven Commission
   ];
   
   // board, switches, keycaps, artisans
@@ -133,7 +139,9 @@ const images = [
 
     'Novelkeys NK87 Comet Blue Aluminum Edition \nSP Star Magic Girls switches lubed \nCannonCaps Winter Tundra \nCustom Cleffairy, Togepi, and Goomy Artisans',
 
-    'Akko SPR67 Lavender \nAkko Crystal Blue Switches Lubed with 205g0 \nGradient Purple Keycaps \nGengar Artisan \nGengar Decal'
+    'Akko SPR67 Lavender \nAkko Crystal Blue Switches lubed \nGradient Purple Keycaps \nGengar Artisan \nGengar Decal',
+
+    'KeebsForAll Coarse60 White \nSP Star Magic Girls Switches lubed and filmed \nPBT Darling Keycaps \nZeroTwo Custom Decals',
   ];
 
 export default images;

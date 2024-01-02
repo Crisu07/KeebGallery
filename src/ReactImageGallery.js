@@ -1,3 +1,4 @@
+// Portfolio Page
 import React, {useState} from 'react'
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import './ReactImageGallery.css'
@@ -75,6 +76,10 @@ const ReactImageGallery = () => {
     if (i === 42 || i === 43 || i === 44){
       setimageText(title[15])
       setimageBody(board[15])
+    }
+    if (i === 45 || i === 46 || i === 47){
+      setimageText(title[16])
+      setimageBody(board[16])
     }
   }
   

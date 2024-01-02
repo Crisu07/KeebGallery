@@ -1,5 +1,15 @@
 
 /* Should be this when in mobile mode to work with menu */
-.about{
+/* .about{
     margin-top: 20%;
+} */
+
+.infoimg {
+    width: auto;
+    max-height: 60%;
+    max-width: 640px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
