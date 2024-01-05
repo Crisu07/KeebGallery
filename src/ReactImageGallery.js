@@ -128,7 +128,7 @@ const ReactImageGallery = () => {
           <button className='btn btn-primary btn-right' onClick={() => imgClick('next-img')}>{'>'}</button>
         </div>
       }
-      <div style={{padding: '10px'}}>
+      <div className='imgcontainer'>
         <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
             <Masonry gutter='20px'>
                 {images.map((image, i) => (

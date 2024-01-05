@@ -11,6 +11,7 @@ Work in Progress
 - [] Add a review option? Where commissioners can provide feedback for my work
 - [] Update titles of boards that were commissions
 - [x] Nav bar to switch between different pages for commissions (Learn React Routing)
-- [] About Page for commission rates and my history with keyboards
+- [x] Info page for commission rates and my history with keyboards
 - [] Commission form page that would email me for commission requests and contact
-- [] Connect keeb portfolio to personal site and vice versa
+- [] Contact page for just general questions about keyboards
+- [] About page - Connect keeb portfolio to personal site and vice versa

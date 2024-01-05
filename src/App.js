@@ -12,7 +12,7 @@ function App() {
         <Navbar/>
         <Routes>
         {/* Redirects the default route to portfolio page */}
-        <Route path="/" element={<Navigate replace to='/portfolio' />}/>
+        <Route path="/" element={<Navigate replace to='/about' />}/>
           {/* Main Pages for Keyboard Portfolio */}
           <Route path="/portfolio" element={<ReactImageGallery />}/>
           <Route path="/about" element={<About />}/>

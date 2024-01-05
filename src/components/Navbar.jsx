@@ -17,10 +17,10 @@ export const Navbar = () => {
         {/* if the menu is opened, add a class open otherwise don't */}
         <ul className={openMenu ? 'open' : ''}>
             <li>
-                <NavLink to='/portfolio'>Portfolio</NavLink>
+                <NavLink to='/about'>Info</NavLink>
             </li>
             <li>
-                <NavLink to='/about'>Info</NavLink>
+                <NavLink to='/portfolio' >Portfolio</NavLink>
             </li>
             <li>
                 <NavLink to='/commission'>Commission</NavLink>
