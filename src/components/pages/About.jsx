@@ -13,7 +13,7 @@ export const About = () => {
       <p>
         Yahallo! My name is Chris Nguyen and welcome to my page for custom keyboard commissions. This is for customers who wish for me to provide an assembly service for their keyboard, considering they have already acquired all the parts or have worked on getting parts through me.
       </p>
-      <p>If you guys are new to the hobby and wish for some recommendations on switches, boards, and other parts - feel free to reach out to me on <a href="https://discord.gg/tdv8sewx2M" target='_blank'>Discord</a> or <a href="/contact">Email</a>! This is completely free as my way of building a community and helping others join this hobby.</p>
+      <p>If you guys are new to the hobby and wish for some recommendations on switches, boards, and other parts - feel free to reach out to me on <a href="https://discord.gg/t4q99vGpjh" target='_blank'>Discord</a> or <a href="/contact">Email</a>! This is completely free as my way of building a community and helping others join this hobby.</p>
       <br />
       <p>
         Here is a breakdown of my services and what is to be expected (Anything involving soldering is unavailable at the moment due to my soldering kit breaking):
