@@ -31,6 +31,7 @@ export const Commission = () => {
       name:'First Name',
       type:'text',
       placeholder:'First Name',
+      errorMessage: '',
       label:'First Name'
     },
     {
@@ -38,6 +39,7 @@ export const Commission = () => {
       name:'Last Name',
       type:'text',
       placeholder:'Last Name',
+      errorMessage: '',
       label:'Last Name'
     },
     {
@@ -45,13 +47,16 @@ export const Commission = () => {
       name:'Email',
       type:'text',
       placeholder:'Email',
+      errorMessage: 'You must have a valid email!',
       label:'Email'
+      //required: true,
     },
     {
       id:4,
       name:'Discord',
       type:'text',
       placeholder:'Discord',
+      errorMessage: '',
       label:'Discord'
     },
     {
@@ -59,6 +64,7 @@ export const Commission = () => {
       name:'Subject',
       type:'text',
       placeholder:'Subject',
+      errorMessage: '',
       label:'Subject'
     },
     {
@@ -66,6 +72,7 @@ export const Commission = () => {
       name:'Keyboard',
       type:'text',
       placeholder:'Keyboard',
+      errorMessage: '',
       label:'Keyboard'
     },
     {
@@ -73,6 +80,7 @@ export const Commission = () => {
       name:'Switches',
       type:'text',
       placeholder:'Switches',
+      errorMessage: '',
       label:'Switches'
     },
     {
@@ -80,6 +88,7 @@ export const Commission = () => {
       name:'Additional Info',
       type:'text',
       placeholder:'Please let me know what services you will need for the build along with other preferences such as spacebar layout, keyboard layout (ISO / Ansi), etc.',
+      errorMessage: '',
       label:'Additional Info'
     },
     {
@@ -87,6 +96,7 @@ export const Commission = () => {
       name:'Comments',
       type:'text',
       placeholder:'Please let me know any additional comments regarding your build.',
+      errorMessage: '',
       label:'Comments'
     },
   ]
@@ -103,7 +113,7 @@ export const Commission = () => {
 
         {/* Commissions Closed Portion - uncomment when open */}
         <h1 className='commissiontitle'>Commission Request (Closed)</h1>
-        <p><strong>Commission requests will be ignored until further notice.</strong> There is a limit to how much commissions I can take on. Follow the <a href="https://discord.gg/t4q99vGpjh" target='_blank'>Discord</a> for further updates.</p>
+        <p><strong>Commission requests will be ignored until further notice.There is a limit to how much commissions I can take on. Follow the <a href="https://discord.gg/t4q99vGpjh" target='_blank'>Discord</a> for further updates.</strong> </p>
 
         <p>I am able to build keyboards if all the parts are provided and delivered to me by the client. Further discussion on commission specifics can be discussed on Discord instead of filling this form.</p>
         <strong>Please only fill out this form if you have already purchased or have all the parts on hand. I will not wait for any group buys or missing parts. </strong> 
@@ -125,7 +135,7 @@ export const Commission = () => {
               />
             ))}
             <br />
-            <button className='btn-commission btn-primary-commission'>Send</button>
+            <button className='btn-commission btn-primary-commission'>Commissions Closed</button>
           </form>
       </div>
     </>

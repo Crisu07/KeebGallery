@@ -17,7 +17,7 @@ export const Navbar = () => {
         {/* if the menu is opened, add a class open otherwise don't */}
         <ul className={openMenu ? 'open' : ''}>
             <li>
-                <NavLink to='/about'>Info</NavLink>
+                <NavLink to='/about'>About</NavLink>
             </li>
             <li>
                 <NavLink to='/portfolio' >Portfolio</NavLink>
@@ -25,12 +25,9 @@ export const Navbar = () => {
             <li>
                 <NavLink to='/commission'>Commission</NavLink>
             </li>
-            <li>
-                <NavLink to='/contact'>Contact</NavLink>
-            </li>
             {/* TO DO: Jump back to personal Site */}
             <li>
-                <NavLink to='/'>About</NavLink>
+                <NavLink to='/about'>Contact</NavLink>
             </li>
         </ul>
     </nav>

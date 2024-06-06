@@ -4,7 +4,7 @@ import './Commission.css'
 
 // makes it easier than doing a separate input per criteria
 const ReqForm = (props) => {
-  const {label, onChange, id, ...inputProps} = props;
+  const {label, errorMessage, onChange, id, ...inputProps} = props;
 
   // last two inputs should have an expandable textbox
   const isText = id > 7;
@@ -17,6 +17,7 @@ const ReqForm = (props) => {
       (
         <input {...inputProps} onChange={onChange} className='commissioninput'/>
       )}
+      <span className='reqSpan'>{errorMessage}</span>
     </div>
   )
 }

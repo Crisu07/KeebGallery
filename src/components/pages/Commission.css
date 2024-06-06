@@ -81,3 +81,16 @@
     color: var(--color-bg);
     height: 50px;
 }
+
+/* Error messages / checking */
+.reqSpan {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+}
+
+    /* only show error message when input is invalid */
+.commissioninput:invalid ~ .reqSpan{
+    display: block;
+}
