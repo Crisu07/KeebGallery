@@ -12,6 +12,6 @@ Work in Progress
 - [] Update titles of boards that were commissions
 - [x] Nav bar to switch between different pages for commissions (Learn React Routing)
 - [x] Info page for commission rates and my history with keyboards
-- [] Commission form page that would email me for commission requests and contact
+- [] Commission form page for email commission requests and contact (EmailJS)
 - [] Contact page for just general questions about keyboards
 - [] About page - Connect keeb portfolio to personal site and vice versa

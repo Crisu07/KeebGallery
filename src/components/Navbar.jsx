@@ -3,6 +3,10 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { NavLink, Link } from 'react-router-dom'
 
+function handleClick() {
+    window.location.href = 'https://chrisnguyen.netlify.app/';
+  }
+
 export const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
@@ -27,7 +31,7 @@ export const Navbar = () => {
             </li>
             {/* TO DO: Jump back to personal Site */}
             <li>
-                <NavLink to='/about'>Contact</NavLink>
+            <a onClick={handleClick}>Contact</a>
             </li>
         </ul>
     </nav>
