@@ -118,14 +118,14 @@ const ReactImageGallery = () => {
     <>
       {data.img &&
         <div className='viewImg'>
-          <button className='btn btn-primary btn-close' onClick={() => imgClick()} >X</button>
-          <button className='btn btn-primary btn-left' onClick={() => imgClick('prev-img')}>{'<'}</button>
+          <button className='btn btn-close' onClick={() => imgClick()} >X</button>
+          <button className='btn btn-left' onClick={() => imgClick('prev-img')}>{'<'}</button>
           <img src={data.img} className='dataImg'/>
           <div className='detailImg'>
             <h3>{imageText}</h3>
             <pre>{imageBody}</pre>
           </div>
-          <button className='btn btn-primary btn-right' onClick={() => imgClick('next-img')}>{'>'}</button>
+          <button className='btn btn-right' onClick={() => imgClick('next-img')}>{'>'}</button>
         </div>
       }
       <div className='imgcontainer'>

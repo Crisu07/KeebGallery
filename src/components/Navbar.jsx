@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-        <Link to="/" className='title'>Keyboard Gallery</Link>
+        <Link to="/about" className='title'>Keyboard Gallery</Link>
         <div className='menu' onClick={() => {setOpenMenu(!openMenu)}}>
             <span></span>
             <span></span>

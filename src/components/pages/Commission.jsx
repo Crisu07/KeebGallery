@@ -112,6 +112,7 @@ export const Commission = () => {
         {/* <h1 className='commissiontitle'>Commission Request</h1> */}
 
         {/* Commissions Closed Portion - uncomment when open */}
+        <h1 className='commissiontitle'></h1>
         <h1 className='commissiontitle'>Commission Request (Closed)</h1>
         <p><strong>Commission requests will be ignored until further notice.There is a limit to how much commissions I can take on. Follow the <a href="https://discord.gg/t4q99vGpjh" target='_blank'>Discord</a> for further updates.</strong> </p>
 

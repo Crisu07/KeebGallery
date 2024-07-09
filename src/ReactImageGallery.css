@@ -61,7 +61,7 @@ pre {
 }
   
 .btn:hover {
-  background: var(--color-white);
+  background: var(--color-primary);
   color: var(--color-bg);
   border-color: transparent;
 }
@@ -109,16 +109,16 @@ pre {
     font-size: 14px;
   }
   .detailImg {
-    display: block;
+    display: none;
   }
   .dataImg {
     margin-top: 15%;
   }
   .btn-left {
-    margin-top: 50%;
+    margin-top: 40%;
   }
   .btn-right{
-    margin-top: 50%;
+    margin-top: 40%;
   }
   .imgcontainer {
     margin-top: 15%;
