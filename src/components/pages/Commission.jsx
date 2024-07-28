@@ -119,7 +119,7 @@ export const Commission = () => {
         <p>I am able to build keyboards if all the parts are provided and delivered to me by the client. Further discussion on commission specifics can be discussed on Discord instead of filling this form.</p>
         <strong>Please only fill out this form if you have already purchased or have all the parts on hand. I will not wait for any group buys or missing parts. </strong> 
         <br />
-        <strong>If you have questions or want a quote on a certain build, please <a href="/contact">contact me</a> instead. This form is for commission requests specifically. Any troll or spam requests will be blocked from further commissions.</strong>
+        <strong>If you have questions or want a quote on a certain build, please <a href="https://chrisnguyen.netlify.app/#contact">contact me</a> instead. This form is for commission requests specifically. Any troll or spam requests will be blocked from further commissions.</strong>
         <br />
       </div>
       <div>

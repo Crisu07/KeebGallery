@@ -25,4 +25,4 @@ https://crisukeebs.netlify.app/about
 - [x] Info page for commission rates and my history with keyboards
 - [] Commission form page for email commission requests and contact (EmailJS)
 - [] Contact page for just general questions about keyboards
-- [] About page - Connect keeb portfolio to personal site and vice versa
+- [x] About page - Connect keeb portfolio to personal site and vice versa
